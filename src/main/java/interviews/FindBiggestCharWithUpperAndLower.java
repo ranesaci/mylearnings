@@ -1,5 +1,9 @@
 package interviews;
 
+/**
+ * @author sachin
+ *
+ */
 public class FindBiggestCharWithUpperAndLower {
 
 	public static void main(String[] args) {

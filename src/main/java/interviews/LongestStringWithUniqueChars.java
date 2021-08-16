@@ -3,6 +3,10 @@ package interviews;
 import java.util.Arrays;
 import java.util.Iterator;
 
+/**
+ * @author sachin
+ *
+ */
 public class LongestStringWithUniqueChars {
 
 	public static void main(String[] args) {
