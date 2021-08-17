@@ -10,11 +10,11 @@ public class ConstructorChaining {
 	public static void main(String[] args) {
 		
 			Cc c = new Cc();
-			System.out.println("***************************************8");
+			System.out.println("***************************************");
 			Bb b = new Cc();
-			System.out.println("***************************************8");
+			System.out.println("***************************************");
 			Aa a = new Cc();
-			System.out.println("***************************************8");
+			System.out.println("***************************************");
 			Bb bb = new Bb();
 	}
 	
