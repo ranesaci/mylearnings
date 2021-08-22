@@ -42,4 +42,19 @@ class Cc extends Bb {
 }
 
 
+interface Interface1 {
+	public static final int a = 0;
+	String getData();
+}
+
+class myClass implements Interface1{
+
+	@Override
+	public String getData() {
+		// TODO Auto-generated method stub
+		return "hellow";
+	}
+	
+}
+
 
