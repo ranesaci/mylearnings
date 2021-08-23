@@ -23,10 +23,11 @@ public class OneNetwork {
      String str1 = "acghj";
      String str2 = "cghja";
 
-     if (areRotations(str1, str2))
-         System.out.println("Strings are rotations of each other");
-     else
-         System.out.printf("Strings are not rotations of each other");
+		/*
+		 * if (areRotations(str1, str2))
+		 * System.out.println("Strings are rotations of each other"); else
+		 * System.out.printf("Strings are not rotations of each other");
+		 */
  }
 
 }
