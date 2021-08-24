@@ -1,4 +1,4 @@
-package java8.collector;
+package java8.spliterator;
 
 import java.util.ArrayList;
 import java.util.List;
