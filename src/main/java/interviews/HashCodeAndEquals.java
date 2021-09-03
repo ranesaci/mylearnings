@@ -23,7 +23,6 @@ public class HashCodeAndEquals {
 	
 	@Override
 	public boolean equals(Object obj) {
-
 		if (this == obj) {
 			return true;
 		}
@@ -31,13 +30,10 @@ public class HashCodeAndEquals {
 		if (null == obj || getClass() != obj.getClass()) {
 			return false;
 		}
-
 		HashCodeAndEquals hashCodeAndEquals = (HashCodeAndEquals) obj;
-
 		if (this.rollNumber != hashCodeAndEquals.rollNumber) {
 			return false;
 		}
-
 		// for String attributes
 		if (null == this.name) {
 			if (null != hashCodeAndEquals.name) {
@@ -46,7 +42,6 @@ public class HashCodeAndEquals {
 		} else if (this.name.equals(hashCodeAndEquals.name)) {
 			return false;
 		}
-
 		return true;
 	}
 
