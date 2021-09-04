@@ -18,12 +18,14 @@ public class Test {
 		a = null;
 		
 		System.out.println("when a is null : " + (a instanceof A));
+	
 	}
 
 }
 
 class A {
 	//dummy class
+
 }
 
 
