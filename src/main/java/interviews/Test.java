@@ -18,6 +18,10 @@ public class Test {
 		a = null;
 		
 		System.out.println("when a is null : " + (a instanceof A));
+		
+		////////////
+		
+		System.out.println("Space replace: "+ "Sa   chi n    Ra ne".replaceAll("\\s", ""));
 	
 	}
 
