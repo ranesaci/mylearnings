@@ -1,5 +1,8 @@
 package interviews;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,7 +13,7 @@ import java.util.List;
 
 public class Test {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		
 		//test for null instanceOf
 		
@@ -41,6 +44,14 @@ public class Test {
 		
 		System.out.println("list :" + list);
 		System.out.println("sublist: " + sublist);
+		
+		System.out.println("list through all files in folder");
+		
+		Files.list(Paths.get("./")).forEach(System.out::println);
+		
+		System.out.println("walk through all files in folder");
+		
+		Files.walk(Paths.get("./")).forEach(System.out::println);
 		
 	
 	}
