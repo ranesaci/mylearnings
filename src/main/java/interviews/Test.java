@@ -5,6 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
 * @author sachin
@@ -52,6 +53,7 @@ public class Test {
 		System.out.println("walk through all files in folder");
 		
 		Files.walk(Paths.get("./")).forEach(System.out::println);
+		ConcurrentHashMap concurrentHashMap = new ConcurrentHashMap();
 		
 	
 	}
