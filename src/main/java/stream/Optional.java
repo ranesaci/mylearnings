@@ -26,6 +26,7 @@ public class Optional {
 											.findAny();
 		
 		element.ifPresent(System.out::println);
+		element.get();
 
 	}
 
