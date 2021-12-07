@@ -17,7 +17,7 @@ import java.util.Stack;
 public class CheckParenthesis {
 
 	public static void main(String[] args) {
-		String str = "A(b*c) [A+]";
+		String str = "(9*8)+!(1-2)-[7/2]";
 		
 		boolean result = check(str);
 		System.out.println(result ? "correct" : "Incorrect");

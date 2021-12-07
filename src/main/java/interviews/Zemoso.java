@@ -1,5 +1,7 @@
 package interviews;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /**
 * @author sachin
@@ -9,6 +11,10 @@ import java.util.Arrays;
 public class Zemoso {
 
 	public static void main(String[] args) {
+		
+		List<Integer> list = new ArrayList<Integer>();
+		Integer[] k = list.toArray(new Integer[list.size()]);
+		
 		int[] A = {1, 4, 7, 19, 23};
 		int[] B = {2, 7, 16, 51, 67};
 		
