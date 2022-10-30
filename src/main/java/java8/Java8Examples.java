@@ -12,6 +12,7 @@ import java.util.stream.Stream;
 
 public class Java8Examples {
 
+	
 	public static void main(String[] args) {
 
 		
