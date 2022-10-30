@@ -16,6 +16,7 @@ public class Java8Examples {
 
 		
 		 int[] data = {11,22,13,53,16,7,89,9};
+		 
 //		 
 //		/* List<Integer> list = IntStream.of(data).boxed().collect(Collectors.toList());
 //		 * System.out.println(list);
