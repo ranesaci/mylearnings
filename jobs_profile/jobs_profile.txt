@@ -1,0 +1,55 @@
+RECRO:
+
+Tech Stack 
+
+Backend & Infra: Java (Spring Boot), Microservices, AWS ECS, Redis, ScyllaDB, MongoDB, GraphQL, AWS, Lambda, SQS
+Data & AI: Databricks, Spark, Kinesis, Claude, Cursor, LangChain
+Observability: Prometheus, Grafana, CloudWatch
+
+
+Role : Senior Backend Engineer (Java / Microservices) 
+
+Location: Remote (Work from Home) 
+
+We’re hiring an experienced backend engineer (6-12 years) to help build scalable, real-time systems at the core of our global marketplace.
+
+
+Responsibilities 
+
+● Build and scale microservices with low-latency design & high-throughput for real-time hotel search and distribution.
+● Implement custom algorithms and data models to support pricing, availability, and inventory workflows.
+● Own end-to-end modules from design to rollout and collaborate with product/architect teams
+● Use AI developer tools (Claude, Cursor) and LLMs via prompts, RAG, and agents to accelerate development.
+
+
+● Participate in rigorous code reviews & contribute to a CI/CD pipeline that supports frequent, reliable, and automated deployments.
+
+
+Requirements 
+
+● 6+ to 12 years of hands-on experience in Java, Spring Boot, and Hibernate.
+● Strong experience with MySQL, MongoDB, or ScyllaDB.
+● Built distributed, event-driven systems using SQS, Kinesis; solid understanding of fault tolerance, backpressure, and scalability.
+● Familiarity with data consistency models, circuit breakers, internal DSLs, and low-latency API design.
+● Proficient with Grafana, Prometheus, CloudWatch; have tuned systems for high throughput and sub-50ms latencies.
+● Comfortable working in a remote-first team with a culture of ownership, documentation, and async communication.
+● Passion for clean code, testability, and driving engineering excellence via automation and tooling.
+
+
+Nice to Have 
+
+● Hands-on with LLM pipelines or agentic workflows
+● Exposure to React or full-stack systems
+● Experience with Spark or Databricks 
+
+● AI/ML Exposure
+
+
+Why Join Us? 
+
+● Work on critical, high-scale systems for a global B2B marketplace
+● Work with high-scale, low-latency systems 
+
+● Use AI tools to boost your productivity in daily development and automate the boring stuff
+● Fully remote team with strong ownership culture
+
